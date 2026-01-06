@@ -1,0 +1,26 @@
+{
+  "name": "genexis-genomics-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "genomics",
+    "upload",
+    "express",
+    "node",
+    "summary"
+  ],
+  "author": "Ritika Rawat & Jaya Chaudhary",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.0",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
